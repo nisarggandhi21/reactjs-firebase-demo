@@ -11,13 +11,7 @@ import '@fontsource/roboto';
 import firebase from "firebase/app";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyACvpM-kn4LPPP718IXqy_FVi2g7lrThqs",
-  authDomain: "fir-demo-yt-363e8.firebaseapp.com",
-  projectId: "fir-demo-yt-363e8",
-  storageBucket: "fir-demo-yt-363e8.appspot.com",
-  messagingSenderId: "898675197194",
-  appId: "1:898675197194:web:6c50ddb2d3e888d21926f3",
-  measurementId: "G-JMZF1MRX1Z"
+  // Add your firebase config here
 };
 
 if(!firebase.apps[0]) {
