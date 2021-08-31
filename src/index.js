@@ -1,29 +1,15 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
+import React from "react";
+import ReactDOM from "react-dom";
 
-import App from './App';
-
+import App from "./App";
 
 // MUI
-import '@fontsource/roboto';
-
-// Firebase
-import firebase from "firebase/app";
-
-const firebaseConfig = {
-  // Add your firebase config here
-};
-
-if(!firebase.apps[0]) {
-  firebase.initializeApp(firebaseConfig);
-}
-
-
-
+import "@fontsource/roboto";
+import "./fir_helpers";
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
+	<React.StrictMode>
+		<App />
+	</React.StrictMode>,
+	document.getElementById("root")
 );
